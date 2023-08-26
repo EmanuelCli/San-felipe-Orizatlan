@@ -1,0 +1,82 @@
+        .container .card {
+            border: 2px solid #002B5C;
+        }
+        .container .card-login {
+            margin-top: 130px;
+            padding: 18px;
+            max-width: 30rem;
+        }
+
+        .container .card-header {
+            color: #fff;
+            /*background: #ff0000;*/
+            font-family: sans-serif;
+            font-size: 20px;
+            font-weight: 600 !important;
+            margin-top: 10px;
+            border-bottom: 0;
+        }
+
+        .container .input-group-prepend span{
+            width: 50px;
+            background-color: #C32039;
+            color: #fff;
+            border:0 !important;
+        }
+
+        .container input:focus{
+            outline: 0 0 0 0  !important;
+            box-shadow: 0 0 0 0 !important;
+        }
+
+        .container .login_btn{
+            width: 130px;
+        }
+
+        .container .login_btn:hover{
+            color: #fff;
+            background-color: #C32039;
+        }
+
+        .container .btn-outline-danger {
+            color: #fff;
+            font-size: 18px;
+            background-color: #002B5C;
+            background-image: none;
+            border-color: #002B5C;
+        }
+
+        .container .form-control {
+            display: block;
+            width: 100%;
+            height: calc(2.25rem + 2px);
+            padding: 0.375rem 0.75rem;
+            font-size: 1.2rem;
+            line-height: 1.6;
+            color: #C32039;
+            background-color: transparent;
+            background-clip: padding-box;
+            border: 1px solid #C32039;
+            border-radius: 0;
+            background-color: #fff;
+            border: 1px solid #C32039;
+            transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+        }
+
+        .container .input-group-text {
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-align: center;
+            align-items: center;
+            padding: 0.375rem 0.75rem;
+            margin-bottom: 0;
+            font-size: 1.5rem;
+            font-weight: 700;
+            line-height: 1.6;
+            color: #495057;
+            background-color: #fff;
+            border: 1px solid #C32039;
+            text-align: center;
+            white-space: nowrap;
+            border-radius: 0;
+        }
